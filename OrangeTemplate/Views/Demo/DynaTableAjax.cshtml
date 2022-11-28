@@ -1,0 +1,38 @@
+﻿
+<style>
+    .dynatable-active-page {
+        background-color: lightblue
+    }
+
+    th a {
+        color: #333;
+    }
+</style>
+
+<div class="container">
+
+    <table id="my-ajax-table" class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>SomeAttribute</th>
+                <th>SomeOtherAttribute</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+
+
+@section scripts {
+    <script>
+        $('#my-ajax-table').dynatable({
+            dataset: {
+                ajax: true,
+                ajaxUrl: '/demo/sourcejson',
+                ajaxOnLoad: true,
+                records: []
+            }
+        });
+    </script>
+}

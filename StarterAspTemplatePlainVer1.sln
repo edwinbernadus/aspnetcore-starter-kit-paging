@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29521.150
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrangeTemplate", "OrangeTemplate\OrangeTemplate.csproj", "{2598EC30-E7FC-42A1-A4CA-46831180151A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2598EC30-E7FC-42A1-A4CA-46831180151A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2598EC30-E7FC-42A1-A4CA-46831180151A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2598EC30-E7FC-42A1-A4CA-46831180151A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2598EC30-E7FC-42A1-A4CA-46831180151A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53D00844-C75B-46C6-B026-42F07F0D6BD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53D00844-C75B-46C6-B026-42F07F0D6BD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53D00844-C75B-46C6-B026-42F07F0D6BD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53D00844-C75B-46C6-B026-42F07F0D6BD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C365F67-B4C6-4D6D-9026-F003DDB08564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C365F67-B4C6-4D6D-9026-F003DDB08564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C365F67-B4C6-4D6D-9026-F003DDB08564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C365F67-B4C6-4D6D-9026-F003DDB08564}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73DFF947-0F21-4A0E-9170-94E3B0A0AD85}
+	EndGlobalSection
+EndGlobal

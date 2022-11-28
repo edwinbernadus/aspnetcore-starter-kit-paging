@@ -1,0 +1,89 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.4" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Compile Remove="Templates\**" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Templates\**" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Remove="Templates\**" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Content Remove="Templates\**" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Templates\ControllerGenerator\ApiControllerWithActions.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\ControllerGenerator\ApiControllerWithContext.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\ControllerGenerator\ApiEmptyController.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\ControllerGenerator\ControllerWithActions.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\ControllerGenerator\EmptyController.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\ControllerGenerator\MvcControllerWithContext.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\MvcLayout\Error.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\MvcLayout\_Layout.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator\Create.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator\CreatePageModel.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator\Delete.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator\DeletePageModel.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator\Details.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator\DetailsPageModel.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator\Edit.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator\EditPageModel.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator\Empty.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator\EmptyPageModel.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator\List.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator\ListPageModel.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator\_ValidationScriptsPartial.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator_Versioned\Bootstrap3\Create.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator_Versioned\Bootstrap3\CreatePageModel.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator_Versioned\Bootstrap3\Delete.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator_Versioned\Bootstrap3\DeletePageModel.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator_Versioned\Bootstrap3\Details.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator_Versioned\Bootstrap3\DetailsPageModel.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator_Versioned\Bootstrap3\Edit.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator_Versioned\Bootstrap3\EditPageModel.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator_Versioned\Bootstrap3\Empty.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator_Versioned\Bootstrap3\EmptyPageModel.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator_Versioned\Bootstrap3\List.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator_Versioned\Bootstrap3\ListPageModel.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\RazorPageGenerator_Versioned\Bootstrap3\_ValidationScriptsPartial.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\Startup\ReadMe.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\Startup\Startup.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\ViewGenerator\Create.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\ViewGenerator\Delete.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\ViewGenerator\Details.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\ViewGenerator\Edit.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\ViewGenerator\Empty.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\ViewGenerator\List.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\ViewGenerator\_ValidationScriptsPartial.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\ViewGenerator_Versioned\Bootstrap3\Create.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\ViewGenerator_Versioned\Bootstrap3\Delete.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\ViewGenerator_Versioned\Bootstrap3\Details.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\ViewGenerator_Versioned\Bootstrap3\Edit.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\ViewGenerator_Versioned\Bootstrap3\Empty.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\ViewGenerator_Versioned\Bootstrap3\List.cshtml" />
+    <_ContentIncludedByDefault Remove="Templates\ViewGenerator_Versioned\Bootstrap3\_ValidationScriptsPartial.cshtml" />
+  </ItemGroup>
+
+</Project>
